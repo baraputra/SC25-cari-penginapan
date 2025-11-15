@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "echo 'Build step not required. Serving static files.'"
+    "build": "mkdir dist && cp -r components services index.html index.tsx App.tsx types.ts constants.ts metadata.json package.json dist/"
   },
   "dependencies": {
     "react": "^18.2.0",
