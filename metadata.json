@@ -1,0 +1,7 @@
+{
+  "name": "Cari Penginapan",
+  "description": "An application to find accommodation listings in a specific area with various rental period options, powered by Gemini with Google Maps grounding for up-to-date information.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
